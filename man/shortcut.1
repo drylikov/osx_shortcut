@@ -1,0 +1,55 @@
+
+.TH "shortcut" "1" "September 2015" "1.1.0" ""
+
+.SH "NAME"
+\fBshortcut\fR - Add autocorrect text shortcuts
+
+.SH "SYNOPSIS"
+.RS 2
+.nf
+\fBshortcut\fR <\fIreplace\fR> <\fIwith\fR>
+.fi
+.nf
+\fBshortcut\fR (\fI--help\fR | \fI--version\fR)
+.fi
+.RE
+
+.SH "DESCRIPTION"
+.P
+\fBshortcut\fR(1) adds autocorrect text shortcuts to OS X, as in, when typing
+\(ga\(Doa\(ga, its expanded to \(ga\(Dob\(ga.
+.P
+\fBstdin\fR(4), in the CSV format, can be provided instead of arguments.
+
+.SH "EXAMPLE"
+.RS 2
+.nf
+\(Do shortcut "omw" "on my way"
+.fi
+.nf
+\(Do shortcut <<< "omw,on my way"
+.fi
+.RE
+
+.SH "OPTIONS"
+
+.SS "-v, --version"
+.P
+output version
+
+.SS "-h, --help"
+.P
+output usage information
+
+.SH "NOTE"
+.P
+Uses undocumented features, meaning that this might break on new releases
+of OS X (but your shortcuts will not).
+
+.SH "BUGS"
+.P
+<\fIhttps://github.com/drylikov/osx_shortcut/issues\fR>
+
+.SH "AUTHOR"
+.P
+Written by Denis Rylikov <\denis.rylikov@protonmail.com\ENG>

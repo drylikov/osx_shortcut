@@ -1,0 +1,29 @@
+
+{
+  "name": "osx_shortcut",
+  "version": "1.1.1",
+  "description": "Add autocorrect text shortcuts to OS X",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "bin",
+    "osx",
+    "shortcut",
+    "text",
+    "expand",
+    "shortcut",
+    "replace"
+  ],
+  "repository": "wooorm/osx_shortcut",
+  "author": "Denis Rylikov <denis.rylikov@protonmail.com>",
+  "files": [
+    "osx_shortcut.sh",
+    "man"
+  ],
+  "bin": {
+    "shortcut": "osx_shortcut.sh"
+  },
+  "directories": {
+    "man": "./man"
+  }
+}
