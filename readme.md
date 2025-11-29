@@ -60,3 +60,4 @@ See also: man 1 shortcut
 Go to `System Preferences` > `Keyboard` > `Text` to see your shortcuts.
 
 
+
