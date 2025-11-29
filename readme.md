@@ -1,4 +1,5 @@
 
+
 # osx-shortcut ![`bin/sh`][bash]
 
 > Add autocorrect text shortcuts, as in, when I type `$a`, its
