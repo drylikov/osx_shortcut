@@ -7,6 +7,7 @@
 
 
 
+
 > Add autocorrect text shortcuts, as in, when I type `$a`, its
 > expanded to `$b`.
 
